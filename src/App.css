@@ -1,0 +1,69 @@
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.home,
+.search {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title,
+.inputs {
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 130px;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+
+.listOfCountries .country {
+  width: 400px;
+  height: 150px;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.country label {
+  margin-left: 10px;
+  font-size: larger;
+}
+
+input {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+button {
+  width: 220px;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: white;
+  color: cornflowerblue;
+  font-weight: bolder;
+  cursor: pointer;
+}
